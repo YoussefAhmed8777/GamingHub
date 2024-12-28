@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Hub</title>
+  <!-- CSS FILES -->
+   <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+   <link rel="stylesheet" href="./CSS/main.css">
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="shortcut icon" href="./imgs/logo-sm.png" type="image/x-icon">
+</head>
+<body>
+  
+  <section class="game">
+    <!-- HEADER -->
+    <header>
+      <img src="./imgs/wraper.png" class="w-100" alt="game-photo">
+    </header>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-primary-subtle shadow-lg position-sticky w-80 m-auto rounded-5">
+      <div class="container p-0">
+        <div class="content d-flex justify-content-center m-auto px-0 align-items-center py-2">
+          <img src="./imgs/logo-sm.png" alt="gaming-logo">
+          <a class="navbar-brand ps-2 fw-bold" href="#">Gaming Hub</a>
+        </div>
+        <button class="navbar-toggler m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto my-1 px-5 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" data-category="shooter">SHOOTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-category="superhero">SUPERHERO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-category="sailing">SAILING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-category="permadeath">PERMADEATH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-category="mmorpg">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-category="pixel">PIXEL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN DATA -->
+    <main class="home container my-5">
+      <section class="position-relative">
+        <div class="row gy-4" id="gameData">
+          
+        </div>
+      </section>
+    </main>
+  </section>
+
+
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+  <script src="./JS/main.js" type="module"></script>
+</body>
+</html>

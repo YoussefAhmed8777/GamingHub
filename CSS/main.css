@@ -1,0 +1,17 @@
+.game header img {
+  height: 30vh;
+  object-fit: cover;
+}
+
+.container .content img{
+  width: 20%;
+  height: 20%;
+}
+
+.game .navbar{
+  transform: translateY(-50%);
+}
+
+.w-80{
+  width: 80%;
+}
